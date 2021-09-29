@@ -4,7 +4,7 @@ const videoElement = document.getElementById("video");
 
 let hands = new Hands({
   locateFile: (file) => {
-    return `libraries/hands/${file}`;
+    return `https://cdn.jsdelivr.net/npm/@mediapipe/hands/${file}`;
   },
 });
 
